@@ -16,5 +16,9 @@ namespace FeedbufGame.BLL
             Id = id;
             Image = image;
         }
+        public List<Shop> Read()
+        {
+            return ShopList;
+        }
     }
 }
