@@ -14,7 +14,7 @@ namespace FeedbufGame.BLL
         private string EmailAdress { get; set; }
         private List<Teacher> Teachers { get; set; }
         private Group Group { get; set; }
-        public void GetStudent()
+        public void GetStudents()
         {
 
         }

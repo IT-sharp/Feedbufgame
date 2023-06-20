@@ -16,5 +16,9 @@ namespace FeedbufGame.BLL
         {
             return FeedupList;
         }
+        public void CreateGoal()
+        {
+
+        }
     }
 }
