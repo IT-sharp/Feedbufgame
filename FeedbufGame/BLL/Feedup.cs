@@ -12,9 +12,9 @@ namespace FeedbufGame.BLL
         private string Subject { get; set; }
         private string Goal { get; set; }
         private DateTime Deadline { get; set; }
-        public void GetFeedup()
+        public List<Feedup> Read()
         {
-
+            return FeedupList;
         }
     }
 }

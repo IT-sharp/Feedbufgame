@@ -12,9 +12,9 @@ namespace FeedbufGame.BLL
         private string Teacher { get; set; }
         private string Commentary { get; set; }
         private DateTime Date { get; set; }
-        public void GetFeedforward()
+        public List<Feedforward> Read()
         {
-
+            return FeedfowardList;
         }
     }
 }
