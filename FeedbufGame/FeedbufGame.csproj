@@ -51,6 +51,7 @@
     <Compile Include="BLL\Feedforward.cs" />
     <Compile Include="BLL\Feedup.cs" />
     <Compile Include="BLL\Group.cs" />
+    <Compile Include="BLL\Shop.cs" />
     <Compile Include="BLL\Student.cs" />
     <Compile Include="BLL\Tamagotchi.cs" />
     <Compile Include="BLL\Teacher.cs" />
