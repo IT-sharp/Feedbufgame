@@ -19,6 +19,7 @@ namespace FeedbufGame.BLL
             animalSelect.Add("Fox");
             animalSelect.Add("Frog");
             animalSelect.Add("Sheep");
+            animalSelect.Add("Dragon");
 
             return AnimalSelect;
         }
