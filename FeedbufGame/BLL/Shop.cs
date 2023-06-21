@@ -20,5 +20,9 @@ namespace FeedbufGame.BLL
         {
             return ShopList;
         }
+        public void BuyItem()
+        {
+
+        }
     }
 }

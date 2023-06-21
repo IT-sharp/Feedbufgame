@@ -8,7 +8,8 @@ namespace FeedbufGame.BLL
 {
     internal class Group
     {
-        private string Name { get; set; }
+        private string GroupName { get; set; }
+        private Student Student { get; set; }
         private List<Group> Students { get; set; }
         public List<Group> GetStudent(List<Group> students)
         {

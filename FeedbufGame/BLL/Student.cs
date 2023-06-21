@@ -12,10 +12,6 @@ namespace FeedbufGame.BLL
         private int PhoneNumber { get; set; }
         private string EmailAddress { get; set; }
         private List<Student> Students { get; set; }
-        public void CreateStudent()
-        {
-
-        }
         public List<Student> Read()
         {
             return Students;
