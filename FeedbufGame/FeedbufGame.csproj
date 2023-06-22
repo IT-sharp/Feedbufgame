@@ -46,7 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BLL\AllFeed.cs" />
+    <Compile Include="BLL\Feed.cs" />
     <Compile Include="BLL\Feedback.cs" />
     <Compile Include="BLL\Feedforward.cs" />
     <Compile Include="BLL\Feedup.cs" />

@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace FeedbufGame.BLL
 {
-    internal class Feedforward
+    internal class Feedforward : Feed
     {
         private List<Feedforward> FeedfowardList { get; set; }
-        private string Teacher { get; set; }
-        private string Commentary { get; set; }
-        private DateTime Date { get; set; }
         public List<Feedforward> Read()
         {
             return FeedfowardList;

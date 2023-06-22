@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace FeedbufGame.BLL
 {
-    internal class AllFeed
+    internal class Feed
     {
-        private Feedback Feedback { get; set; }
+        private string Teacher { get; set; }
+        private string Commentary { get; set; }
+        private DateTime Date { get; set; }
         private Feedup Feedup { get; set; }
-        private Feedforward Feedforward { get; set; }
     }
 }
