@@ -8,18 +8,8 @@ namespace FeedbufGame.BLL
 {
     internal class Shop
     {
-        private int Id { get; set; }
-        private string Image { get; set; }
+        private bool Owned { get; set; }
         private List<Shop> ShopList { get; set; }
-        public Shop(int id, string image)
-        {
-            Id = id;
-            Image = image;
-        }
-        public List<Shop> Read()
-        {
-            return ShopList;
-        }
         public void BuyItem()
         {
 

@@ -11,17 +11,17 @@ namespace FeedbufGame.BLL
         private int Healthbar { get; set; }
         private int Happinessbar { get; set; }
         private int Evolvebar { get; set; }
-        private List<string> AnimalSelect { get; set; }
-        private List<string> SetAnimalSelect(List<string> animalSelect)
+        private bool Equipped { get; set; }
+        private enum AnimalSelect 
+        { 
+            Fox,
+            Frog,
+            Sheep,
+            Dragon
+        }
+        private void SetAnimalSelect(AnimalSelect)
         {
-            AnimalSelect = animalSelect;
-
-            animalSelect.Add("Fox");
-            animalSelect.Add("Frog");
-            animalSelect.Add("Sheep");
-            animalSelect.Add("Dragon");
-
-            return AnimalSelect;
+            
         }
 
     }
