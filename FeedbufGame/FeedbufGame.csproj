@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\AnimalSelect.cs" />
     <Compile Include="BLL\Feed.cs" />
     <Compile Include="BLL\Feedback.cs" />
     <Compile Include="BLL\Feedforward.cs" />

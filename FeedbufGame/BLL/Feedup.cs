@@ -12,6 +12,13 @@ namespace FeedbufGame.BLL
         private string Subject { get; set; }
         private string Goal { get; set; }
         private DateTime Deadline { get; set; }
+        public Feedup(string subject, string goal, DateTime deadline)
+        {
+            Subject = subject;
+            Goal = goal;
+            Deadline = deadline;
+        }
+
         public List<Feedup> Read()
         {
             return FeedupList;

@@ -9,6 +9,10 @@ namespace FeedbufGame.BLL
     internal class Feedforward : Feed
     {
         private List<Feedforward> FeedfowardList { get; set; }
+        public Feedforward(Teacher teacher, string commentary, DateTime date, Feedup feedup)
+        {
+            
+        }
         public List<Feedforward> Read()
         {
             return FeedfowardList;

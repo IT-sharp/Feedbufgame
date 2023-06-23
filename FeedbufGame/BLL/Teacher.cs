@@ -14,6 +14,12 @@ namespace FeedbufGame.BLL
         private string EmailAdress { get; set; }
         private List<Teacher> Teachers { get; set; }
         private Group Group { get; set; }
+        public Teacher(string name, int phoneNumber, string emailAdress)
+        {
+            Name = name;
+            PhoneNumber = phoneNumber;
+            EmailAdress = emailAdress;
+        }
         public void GetStudents()
         {
 

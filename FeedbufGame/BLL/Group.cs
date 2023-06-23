@@ -11,7 +11,7 @@ namespace FeedbufGame.BLL
         private string GroupName { get; set; }
         private Student Student { get; set; }
         private List<Group> Students { get; set; }
-        public List<Group> GetStudent(List<Group> students)
+        public List<Group> GroupStudents(List<Group> students)
         {
             Students = students;
 

@@ -12,14 +12,7 @@ namespace FeedbufGame.BLL
         private int Happinessbar { get; set; }
         private int Evolvebar { get; set; }
         private bool Equipped { get; set; }
-        private enum AnimalSelect 
-        { 
-            Fox,
-            Frog,
-            Sheep,
-            Dragon
-        }
-        private void SetAnimalSelect(AnimalSelect)
+        private void SetAnimalSelect(AnimalSelect animalSelect)
         {
             
         }
