@@ -63,9 +63,9 @@ namespace FeedbufGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _62a80accb7b242533931885d49e5ab08 {
+        internal static System.Drawing.Bitmap AdultDragonHappy_png {
             get {
-                object obj = ResourceManager.GetObject("_62a80accb7b242533931885d49e5ab08", resourceCulture);
+                object obj = ResourceManager.GetObject("AdultDragonHappy.png", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace FeedbufGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _8200fd7836c2db37374d9d3785442336 {
+        internal static System.Drawing.Bitmap AdultDragonSad_png {
             get {
-                object obj = ResourceManager.GetObject("_8200fd7836c2db37374d9d3785442336", resourceCulture);
+                object obj = ResourceManager.GetObject("AdultDragonSad.png", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace FeedbufGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _8947689_TCPAJCRJ_7 {
+        internal static System.Drawing.Bitmap AdultFoxHappy_png {
             get {
-                object obj = ResourceManager.GetObject("_8947689_TCPAJCRJ_7", resourceCulture);
+                object obj = ResourceManager.GetObject("AdultFoxHappy.png", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace FeedbufGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap adult_fox_happy {
+        internal static System.Drawing.Bitmap AdultFoxSad_png {
             get {
-                object obj = ResourceManager.GetObject("adult_fox_happy", resourceCulture);
+                object obj = ResourceManager.GetObject("AdultFoxSad.png", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace FeedbufGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Cute_Baby_Black_Dragon_PNG_File_Wall_Art_Graphics_63950521_1_580x386 {
+        internal static System.Drawing.Bitmap FrogHappy_png {
             get {
-                object obj = ResourceManager.GetObject("Cute_Baby_Black_Dragon_PNG_File_Wall_Art_Graphics_63950521_1_580x386", resourceCulture);
+                object obj = ResourceManager.GetObject("FrogHappy.png", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace FeedbufGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap fox_baby {
+        internal static System.Drawing.Bitmap FrogSad_png {
             get {
-                object obj = ResourceManager.GetObject("fox_baby", resourceCulture);
+                object obj = ResourceManager.GetObject("FrogSad.png", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace FeedbufGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap il_fullxfull {
+        internal static System.Drawing.Bitmap YoungDragonHappy_png {
             get {
-                object obj = ResourceManager.GetObject("il_fullxfull", resourceCulture);
+                object obj = ResourceManager.GetObject("YoungDragonHappy.png", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace FeedbufGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap images {
+        internal static System.Drawing.Bitmap YoungDragonSad {
             get {
-                object obj = ResourceManager.GetObject("images", resourceCulture);
+                object obj = ResourceManager.GetObject("YoungDragonSad", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +143,9 @@ namespace FeedbufGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap latest {
+        internal static System.Drawing.Bitmap YoungFoxHappy_png {
             get {
-                object obj = ResourceManager.GetObject("latest", resourceCulture);
+                object obj = ResourceManager.GetObject("YoungFoxHappy.png", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +153,9 @@ namespace FeedbufGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap upside_down_toothless_s4u6g8iodr1w72cv {
+        internal static System.Drawing.Bitmap YoungFoxSad_png {
             get {
-                object obj = ResourceManager.GetObject("upside_down_toothless_s4u6g8iodr1w72cv", resourceCulture);
+                object obj = ResourceManager.GetObject("YoungFoxSad.png", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
