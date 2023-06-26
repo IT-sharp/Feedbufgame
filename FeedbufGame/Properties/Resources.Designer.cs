@@ -103,6 +103,16 @@ namespace FeedbufGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Forest_png {
+            get {
+                object obj = ResourceManager.GetObject("Forest.png", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FrogHappy_png {
             get {
                 object obj = ResourceManager.GetObject("FrogHappy.png", resourceCulture);

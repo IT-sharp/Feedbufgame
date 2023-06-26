@@ -130,6 +130,9 @@
   <data name="AdultFoxSad.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\8947689-TCPAJCRJ-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Forest.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\elisabeth-aksenova-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="FrogHappy.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\62a80accb7b242533931885d49e5ab08.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

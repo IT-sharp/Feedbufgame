@@ -16,5 +16,10 @@ namespace FeedbufGame
         {
             InitializeComponent();
         }
+
+        private void Game_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

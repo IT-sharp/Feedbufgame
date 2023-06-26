@@ -162,5 +162,8 @@
   <ItemGroup>
     <None Include="images\upside-down-toothless-s4u6g8iodr1w72cv.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elisabeth-aksenova-1.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
