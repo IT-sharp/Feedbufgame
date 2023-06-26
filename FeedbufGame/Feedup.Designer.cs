@@ -28,12 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.feedButton = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // feedButton
+            // 
+            this.feedButton.Location = new System.Drawing.Point(254, 340);
+            this.feedButton.Name = "feedButton";
+            this.feedButton.Size = new System.Drawing.Size(166, 60);
+            this.feedButton.TabIndex = 2;
+            this.feedButton.Text = "Give feed";
+            this.feedButton.UseVisualStyleBackColor = true;
+            // 
+            // Feedup
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(651, 435);
+            this.Controls.Add(this.feedButton);
+            this.Name = "Feedup";
             this.Text = "Feedup";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button feedButton;
     }
 }
