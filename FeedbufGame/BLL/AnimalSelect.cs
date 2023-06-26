@@ -12,7 +12,6 @@ namespace FeedbufGame.BLL
         {
             Fox,
             Frog,
-            Sheep,
             Dragon
         }
     }
