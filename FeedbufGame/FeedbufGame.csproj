@@ -105,6 +105,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -118,6 +119,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\62a80accb7b242533931885d49e5ab08.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\8200fd7836c2db37374d9d3785442336.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\8947689-TCPAJCRJ-7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\adult fox happy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Cute-Baby-Black-Dragon-PNG-File-Wall-Art-Graphics-63950521-1-580x386.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\fox baby.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\il_fullxfull.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\latest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\upside-down-toothless-s4u6g8iodr1w72cv.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
