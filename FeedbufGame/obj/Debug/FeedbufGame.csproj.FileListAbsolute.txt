@@ -23,3 +23,6 @@ C:\Users\rickt\OneDrive\Documenten\School, learning and internship\Zuyd Hogescho
 C:\Users\rickt\OneDrive\Documenten\School, learning and internship\Zuyd Hogeschool\Software Projects\Projects\Feedbuf - Gamification\Feedbufgame\FeedbufGame\obj\Debug\FeedbufGame.csproj.CoreCompileInputs.cache
 C:\Users\rickt\OneDrive\Documenten\School, learning and internship\Zuyd Hogeschool\Software Projects\Projects\Feedbuf - Gamification\Feedbufgame\FeedbufGame\obj\Debug\FeedbufGame.exe
 C:\Users\rickt\OneDrive\Documenten\School, learning and internship\Zuyd Hogeschool\Software Projects\Projects\Feedbuf - Gamification\Feedbufgame\FeedbufGame\obj\Debug\FeedbufGame.pdb
+C:\Users\rickt\OneDrive\Documenten\School, learning and internship\Zuyd Hogeschool\Software Projects\Projects\Feedbuf - Gamification\Feedbufgame\FeedbufGame\bin\Debug\FeedbufGame.exe.config
+C:\Users\rickt\OneDrive\Documenten\School, learning and internship\Zuyd Hogeschool\Software Projects\Projects\Feedbuf - Gamification\Feedbufgame\FeedbufGame\bin\Debug\FeedbufGame.exe
+C:\Users\rickt\OneDrive\Documenten\School, learning and internship\Zuyd Hogeschool\Software Projects\Projects\Feedbuf - Gamification\Feedbufgame\FeedbufGame\bin\Debug\FeedbufGame.pdb

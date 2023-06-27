@@ -11,8 +11,8 @@ namespace FeedbufGame
     {
         string connectionString = "Server=tcp:feedbuf.database.windows.net,1433;Initial Catalog=FeedBufDB;Persist Security Info=False;User ID=CloudSAa8987ecc;Password=DisconnectedZuyd123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
         public List<Feedup> feedupList = new List<Feedup>();
-        public List<Feedforward> feedforwardList = new List<Feedforward>();
-        public List<Feedback> feedbackList = new List<Feedback>();
+        public List<Feed> feedforwardList = new List<Feed>();
+        public List<Feed> feedbackList = new List<Feed>();
         public List<Student> studentList = new List<Student>();
         public DAL()
         {
