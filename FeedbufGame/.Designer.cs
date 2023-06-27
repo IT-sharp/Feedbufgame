@@ -1,6 +1,6 @@
 ﻿namespace FeedbufGame
 {
-    partial class _
+    partial class _ : System.Windows.Forms.Form
     {
         /// <summary>
         /// Required designer variable.
