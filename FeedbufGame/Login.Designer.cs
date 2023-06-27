@@ -46,6 +46,7 @@
             // 
             this.tbPassword.Location = new System.Drawing.Point(117, 121);
             this.tbPassword.Name = "tbPassword";
+            this.tbPassword.PasswordChar = '*';
             this.tbPassword.Size = new System.Drawing.Size(301, 22);
             this.tbPassword.TabIndex = 1;
             // 
@@ -75,6 +76,7 @@
             this.buttonLogin.TabIndex = 4;
             this.buttonLogin.Text = "Log in";
             this.buttonLogin.UseVisualStyleBackColor = true;
+            this.buttonLogin.Click += new System.EventHandler(this.buttonLogin_Click);
             // 
             // Login
             // 

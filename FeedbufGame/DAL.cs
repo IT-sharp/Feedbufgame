@@ -9,7 +9,7 @@ namespace FeedbufGame
 {
     internal class DAL
     {
-        string connectionString = "Server=tcp:feedbuf.database.windows.net,1433;Initial Catalog=FeedBufDB;Persist Security Info=False;User ID=CloudSAa8987ecc;Password=DisconnectedZuyd123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+        string connectionString = "";
         public List<Feedup> feedupList = new List<Feedup>();
         public List<Feed> feedforwardList = new List<Feed>();
         public List<Feed> feedbackList = new List<Feed>();
@@ -18,5 +18,6 @@ namespace FeedbufGame
         {
 
         }
+
     }
 }
