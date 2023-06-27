@@ -8,6 +8,8 @@ namespace FeedbufGame.BLL
 {
     internal class Feed
     {
+        private List<Feed> FeedbackList { get; set; }
+        private List<Feed> FeedfowardList { get; set; }
         private Teacher Teacher { get; set; }
         private string Commentary { get; set; }
         private DateTime Date { get; set; }
@@ -18,6 +20,14 @@ namespace FeedbufGame.BLL
             Commentary = commentary;
             Date = date;
             Feedup = feedup;
+        }
+        public List<Feed> ReadFeedback()
+        {
+            return FeedbackList;
+        }
+        public List<Feed> ReadFeedforward()
+        {
+            return FeedfowardList;
         }
     }
 }

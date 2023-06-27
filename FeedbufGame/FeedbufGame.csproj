@@ -54,8 +54,6 @@
     </Compile>
     <Compile Include="BLL\AnimalSelect.cs" />
     <Compile Include="BLL\Feed.cs" />
-    <Compile Include="BLL\Feedback.cs" />
-    <Compile Include="BLL\Feedforward.cs" />
     <Compile Include="BLL\Feedup.cs" />
     <Compile Include="BLL\Group.cs" />
     <Compile Include="BLL\Product.cs" />
