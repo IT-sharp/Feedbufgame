@@ -19,10 +19,10 @@ namespace FeedbufGame.BLL
             Deadline = deadline;
         }
 
-        public List<Feedup> Read()
-        {
-            return FeedupList;
-        }
+        //public List<Feedup> Read()
+        //{
+        //    return FeedupList;
+        //}
         public void CreateFeedup()
         {
 
