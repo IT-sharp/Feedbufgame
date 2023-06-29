@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.FeedBtn = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.FeedupBtn = new System.Windows.Forms.PictureBox();
+            this.FeedBackBtn = new System.Windows.Forms.PictureBox();
+            this.FeedForwardBtn = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.FeedupBtn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FeedBackBtn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FeedForwardBtn)).BeginInit();
             this.SuspendLayout();
             // 
             // FeedBtn
@@ -47,41 +47,41 @@
             this.FeedBtn.Text = "All feed";
             this.FeedBtn.UseVisualStyleBackColor = false;
             // 
-            // pictureBox1
+            // FeedupBtn
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox1.Image = global::FeedbufGame.Properties.Resources.Button;
-            this.pictureBox1.Location = new System.Drawing.Point(499, 854);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(215, 167);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.FeedupBtn.BackColor = System.Drawing.Color.Transparent;
+            this.FeedupBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.FeedupBtn.Image = global::FeedbufGame.Properties.Resources.Button;
+            this.FeedupBtn.Location = new System.Drawing.Point(499, 854);
+            this.FeedupBtn.Name = "FeedupBtn";
+            this.FeedupBtn.Size = new System.Drawing.Size(215, 167);
+            this.FeedupBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.FeedupBtn.TabIndex = 1;
+            this.FeedupBtn.TabStop = false;
             // 
-            // pictureBox2
+            // FeedBackBtn
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox2.Image = global::FeedbufGame.Properties.Resources.Button;
-            this.pictureBox2.Location = new System.Drawing.Point(787, 854);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(215, 167);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
+            this.FeedBackBtn.BackColor = System.Drawing.Color.Transparent;
+            this.FeedBackBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.FeedBackBtn.Image = global::FeedbufGame.Properties.Resources.Button;
+            this.FeedBackBtn.Location = new System.Drawing.Point(787, 854);
+            this.FeedBackBtn.Name = "FeedBackBtn";
+            this.FeedBackBtn.Size = new System.Drawing.Size(215, 167);
+            this.FeedBackBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.FeedBackBtn.TabIndex = 2;
+            this.FeedBackBtn.TabStop = false;
             // 
-            // pictureBox3
+            // FeedForwardBtn
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox3.Image = global::FeedbufGame.Properties.Resources.Button;
-            this.pictureBox3.Location = new System.Drawing.Point(1073, 854);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(215, 167);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 3;
-            this.pictureBox3.TabStop = false;
+            this.FeedForwardBtn.BackColor = System.Drawing.Color.Transparent;
+            this.FeedForwardBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.FeedForwardBtn.Image = global::FeedbufGame.Properties.Resources.Button;
+            this.FeedForwardBtn.Location = new System.Drawing.Point(1073, 854);
+            this.FeedForwardBtn.Name = "FeedForwardBtn";
+            this.FeedForwardBtn.Size = new System.Drawing.Size(215, 167);
+            this.FeedForwardBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.FeedForwardBtn.TabIndex = 3;
+            this.FeedForwardBtn.TabStop = false;
             // 
             // Game
             // 
@@ -90,9 +90,9 @@
             this.BackgroundImage = global::FeedbufGame.Properties.Resources.Forest_png;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1902, 1033);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.FeedForwardBtn);
+            this.Controls.Add(this.FeedBackBtn);
+            this.Controls.Add(this.FeedupBtn);
             this.Controls.Add(this.FeedBtn);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -100,9 +100,9 @@
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.Text = "Tamagotchi";
             this.Load += new System.EventHandler(this.Game_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FeedupBtn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FeedBackBtn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FeedForwardBtn)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -110,8 +110,8 @@
         #endregion
 
         private System.Windows.Forms.Button FeedBtn;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox FeedupBtn;
+        private System.Windows.Forms.PictureBox FeedBackBtn;
+        private System.Windows.Forms.PictureBox FeedForwardBtn;
     }
 }
