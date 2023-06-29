@@ -186,5 +186,8 @@
   <ItemGroup>
     <None Include="Resources\viking-helmet-illustration-png.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1319110422.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
