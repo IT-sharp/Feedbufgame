@@ -177,5 +177,14 @@
   <ItemGroup>
     <None Include="Resources\60-Poliwag.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pumpkin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qiBALj8jT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\viking-helmet-illustration-png.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
