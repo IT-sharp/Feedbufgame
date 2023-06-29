@@ -153,6 +153,36 @@ namespace FeedbufGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pumpkin {
+            get {
+                object obj = ResourceManager.GetObject("pumpkin", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap qiBALj8jT {
+            get {
+                object obj = ResourceManager.GetObject("qiBALj8jT", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap viking_helmet_illustration_png {
+            get {
+                object obj = ResourceManager.GetObject("viking_helmet_illustration_png", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap YoungDragonHappy_png {
             get {
                 object obj = ResourceManager.GetObject("YoungDragonHappy.png", resourceCulture);
