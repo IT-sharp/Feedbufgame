@@ -168,5 +168,14 @@
   <ItemGroup>
     <None Include="Resources\elisabeth-aksenova-1.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laughing.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2060-Shiny-Poliwag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\60-Poliwag.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

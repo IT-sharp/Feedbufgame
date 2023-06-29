@@ -37,8 +37,11 @@
             this.BackgroundImage = global::FeedbufGame.Properties.Resources.Forest_png;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1902, 1033);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Game";
-            this.Text = "Form1";
+            this.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Text = "Tamagotchi";
             this.Load += new System.EventHandler(this.Game_Load);
             this.ResumeLayout(false);
 

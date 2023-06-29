@@ -63,6 +63,26 @@ namespace FeedbufGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2060_Shiny_Poliwag {
+            get {
+                object obj = ResourceManager.GetObject("_2060_Shiny_Poliwag", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _60_Poliwag {
+            get {
+                object obj = ResourceManager.GetObject("_60_Poliwag", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap AdultDragonHappy_png {
             get {
                 object obj = ResourceManager.GetObject("AdultDragonHappy.png", resourceCulture);
