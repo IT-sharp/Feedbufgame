@@ -8,8 +8,6 @@ C:\Users\knopp\Dropbox\My PC (LAPTOP-C3L4ER7C)\Documents\GitHub2\Feedbufgame\Fee
 C:\Users\knopp\Dropbox\My PC (LAPTOP-C3L4ER7C)\Documents\GitHub2\Feedbufgame\FeedbufGame\obj\Debug\FeedbufGame.csproj.CoreCompileInputs.cache
 C:\Users\knopp\Dropbox\My PC (LAPTOP-C3L4ER7C)\Documents\GitHub2\Feedbufgame\FeedbufGame\obj\Debug\FeedbufGame.exe
 C:\Users\knopp\Dropbox\My PC (LAPTOP-C3L4ER7C)\Documents\GitHub2\Feedbufgame\FeedbufGame\obj\Debug\FeedbufGame.pdb
-C:\Users\knopp\Dropbox\My PC (LAPTOP-C3L4ER7C)\Documents\GitHub2\Feedbufgame\FeedbufGame\obj\Debug\FeedbufGame.FeedBackFoward.resources
-C:\Users\knopp\Dropbox\My PC (LAPTOP-C3L4ER7C)\Documents\GitHub2\Feedbufgame\FeedbufGame\obj\Debug\FeedbufGame.Feedup.resources
 C:\Users\knopp\Dropbox\My PC (LAPTOP-C3L4ER7C)\Documents\GitHub2\Feedbufgame\FeedbufGame\obj\Debug\FeedbufGame.Game.resources
 C:\Users\knopp\Dropbox\My PC (LAPTOP-C3L4ER7C)\Documents\GitHub2\Feedbufgame\FeedbufGame\obj\Debug\FeedbufGame.Login.resources
 C:\Users\rickt\OneDrive\Documenten\School, learning and internship\Zuyd Hogeschool\Software Projects\Projects\Feedbuf - Gamification\Feedbufgame\FeedbufGame\obj\Debug\FeedbufGame.csproj.AssemblyReference.cache
@@ -26,3 +24,7 @@ C:\Users\rickt\OneDrive\Documenten\School, learning and internship\Zuyd Hogescho
 C:\Users\rickt\OneDrive\Documenten\School, learning and internship\Zuyd Hogeschool\Software Projects\Projects\Feedbuf - Gamification\Feedbufgame\FeedbufGame\bin\Debug\FeedbufGame.exe.config
 C:\Users\rickt\OneDrive\Documenten\School, learning and internship\Zuyd Hogeschool\Software Projects\Projects\Feedbuf - Gamification\Feedbufgame\FeedbufGame\bin\Debug\FeedbufGame.exe
 C:\Users\rickt\OneDrive\Documenten\School, learning and internship\Zuyd Hogeschool\Software Projects\Projects\Feedbuf - Gamification\Feedbufgame\FeedbufGame\bin\Debug\FeedbufGame.pdb
+C:\Users\knopp\Dropbox\My PC (LAPTOP-C3L4ER7C)\Documents\GitHub2\Feedbufgame\FeedbufGame\obj\Debug\FeedbufGame.AnimalSelect.resources
+C:\Users\knopp\Dropbox\My PC (LAPTOP-C3L4ER7C)\Documents\GitHub2\Feedbufgame\FeedbufGame\obj\Debug\FeedbufGame.FeedBackForwardPop.resources
+C:\Users\knopp\Dropbox\My PC (LAPTOP-C3L4ER7C)\Documents\GitHub2\Feedbufgame\FeedbufGame\obj\Debug\FeedbufGame.FeedupPop.resources
+C:\Users\knopp\Dropbox\My PC (LAPTOP-C3L4ER7C)\Documents\GitHub2\Feedbufgame\FeedbufGame\obj\Debug\FeedbufGame.TasksPop.resources
