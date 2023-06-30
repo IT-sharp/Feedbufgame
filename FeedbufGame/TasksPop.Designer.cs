@@ -64,16 +64,16 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(20, 98);
+            this.label3.Location = new System.Drawing.Point(19, 117);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(168, 16);
+            this.label3.Size = new System.Drawing.Size(198, 16);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Welk vak is deze taak voor";
+            this.label3.Text = "Koppel de taak aan het leerdoel";
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(23, 117);
+            this.comboBox1.Location = new System.Drawing.Point(17, 136);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 24);
             this.comboBox1.TabIndex = 5;
@@ -82,6 +82,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label3);
