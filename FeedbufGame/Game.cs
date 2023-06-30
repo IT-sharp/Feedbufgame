@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FeedbufGame.BLL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,7 +15,13 @@ namespace FeedbufGame
     {
         public Game()
         {
+            Student student = new Student();
             InitializeComponent();
+            if(student.Animal == "None")
+            {
+                AnimalSelectPop animalSelect = new AnimalSelectPop();
+                animalSelect.ShowDialog();
+            }
         }
 
         private void Game_Load(object sender, EventArgs e)

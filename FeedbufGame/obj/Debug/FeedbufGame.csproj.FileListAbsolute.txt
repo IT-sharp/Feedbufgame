@@ -30,3 +30,4 @@ C:\Users\rickt\OneDrive\Documenten\School, learning and internship\Zuyd Hogescho
 C:\Users\rickt\OneDrive\Documenten\School, learning and internship\Zuyd Hogeschool\Software Projects\Projects\Feedbuf - Gamification\Feedbufgame\FeedbufGame\obj\Debug\FeedbufGame.FeedBackForwardPop.resources
 C:\Users\rickt\OneDrive\Documenten\School, learning and internship\Zuyd Hogeschool\Software Projects\Projects\Feedbuf - Gamification\Feedbufgame\FeedbufGame\obj\Debug\FeedbufGame.FeedupPop.resources
 C:\Users\rickt\OneDrive\Documenten\School, learning and internship\Zuyd Hogeschool\Software Projects\Projects\Feedbuf - Gamification\Feedbufgame\FeedbufGame\obj\Debug\FeedbufGame.TasksPop.resources
+C:\Users\rickt\OneDrive\Documenten\School, learning and internship\Zuyd Hogeschool\Software Projects\Projects\Feedbuf - Gamification\Feedbufgame\FeedbufGame\obj\Debug\FeedbufGame.TaskPop.resources

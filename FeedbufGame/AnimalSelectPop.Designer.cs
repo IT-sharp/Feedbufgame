@@ -1,6 +1,6 @@
 ﻿namespace FeedbufGame
 {
-    partial class AnimalSelect
+    partial class AnimalSelectPop
     {
         /// <summary>
         /// Required designer variable.

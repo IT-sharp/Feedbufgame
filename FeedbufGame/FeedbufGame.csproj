@@ -52,11 +52,11 @@
     <Compile Include=".Designer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AnimalSelect.cs">
+    <Compile Include="AnimalSelectPop.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AnimalSelect.Designer.cs">
-      <DependentUpon>AnimalSelect.cs</DependentUpon>
+    <Compile Include="AnimalSelectPop.Designer.cs">
+      <DependentUpon>AnimalSelectPop.cs</DependentUpon>
     </Compile>
     <Compile Include="BLL\AnimalSelect.cs" />
     <Compile Include="BLL\Feed.cs" />
@@ -114,8 +114,8 @@
     <Compile Include="TeacherView.Designer.cs">
       <DependentUpon>TeacherView.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AnimalSelect.resx">
-      <DependentUpon>AnimalSelect.cs</DependentUpon>
+    <EmbeddedResource Include="AnimalSelectPop.resx">
+      <DependentUpon>AnimalSelectPop.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FeedBackForwardPop.resx">
       <DependentUpon>FeedBackForwardPop.cs</DependentUpon>

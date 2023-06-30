@@ -12,6 +12,7 @@ namespace FeedbufGame.BLL
         private int PhoneNumber { get; set; }
         private string EmailAdress { get; set; }
         private int Points { get; set; }
+        public string Animal { get; set; }
         private List<Student> FeedupList { get; set; }
         private List<Student> Students { get; set; }
         public List<Student> Read()
