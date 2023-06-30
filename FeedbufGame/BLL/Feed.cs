@@ -29,5 +29,9 @@ namespace FeedbufGame.BLL
         {
             return FeedfowardList;
         }
+        public void CreateFeed()
+        {
+
+        }
     }
 }
