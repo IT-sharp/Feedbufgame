@@ -36,7 +36,7 @@ namespace FeedbufGame
 
         private void FeedTasksBtn_Click(object sender, EventArgs e)
         {
-            TasksPop tasks = new TasksPop();
+            TaskPop tasks = new TaskPop();
             tasks.ShowDialog();
         }
 

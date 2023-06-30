@@ -13,13 +13,16 @@ namespace FeedbufGame.BLL
         private string Image { get; set; }
         private string Category { get; set; }
         private string Description { get; set; }
-        private int Worth { get; set; }
+        private int Price { get; set; }
         private List<Product> ProductList { get; set; }
 
-        public Product(int id, string image)
+        public Product(int id, string image, string category, string description, int price)
         {
             Id = id;
             Image = image;
+            Category = category;
+            Description = description;
+            Price = price;
         }
         public List<Product> Read()
         {

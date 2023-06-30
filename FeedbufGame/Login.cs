@@ -30,16 +30,16 @@ namespace FeedbufGame
                 animal.ShowDialog();
                 this.Close();
             }
-            //else if (tbUsername.Text == Teacher && tbPassword.Text == PasswordT)
-            //{
-            //this.Hide();
-            //TeachView teachView = new TeachView();
-            //teachView.ShowDialog();
-            //this.Close();
-            //}
+            else if (tbUsername.Text == Teacher && tbPassword.Text == PasswordT)
+            {
+                this.Hide();
+                TeacherView teacherView = new TeacherView();
+                teacherView.ShowDialog();
+                this.Close();
+            }
             else
             {
-                MessageBox.Show("Log in failed", "Log in credentials are not correct. Please try again",
+                MessageBox.Show("Log in mislukt", "Log in gegevens zijn niet correct. Probeer het opnieuw",
                 MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }

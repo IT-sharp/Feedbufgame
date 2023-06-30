@@ -1,6 +1,6 @@
 ﻿namespace FeedbufGame
 {
-    partial class TasksPop
+    partial class TaskPop
     {
         /// <summary>
         /// Required designer variable.

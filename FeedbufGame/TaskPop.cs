@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FeedbufGame
 {
-    public partial class TasksPop : Form
+    public partial class TaskPop : Form
     {
-        public TasksPop()
+        public TaskPop()
         {
             InitializeComponent();
         }

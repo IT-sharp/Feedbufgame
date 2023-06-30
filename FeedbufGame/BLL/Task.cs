@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FeedbufGame.BLL
 {
-    internal class Tasks
+    internal class Task
     {
 
     }
