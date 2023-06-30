@@ -15,6 +15,7 @@ namespace FeedbufGame.BLL
         private string Description { get; set; }
         private int Worth { get; set; }
         private List<Product> ProductList { get; set; }
+
         public Product(int id, string image)
         {
             Id = id;
