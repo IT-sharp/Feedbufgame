@@ -26,8 +26,8 @@ namespace FeedbufGame
             if (tbUsername.Text == Student && tbPassword.Text == PasswordSt)
             {
                 this.Hide();
-                Game game = new Game();
-                game.ShowDialog();
+                AnimalSelect animal = new AnimalSelect();
+                animal.ShowDialog();
                 this.Close();
             }
             //else if (tbUsername.Text == Teacher && tbPassword.Text == PasswordT)

@@ -52,6 +52,12 @@
     <Compile Include=".Designer.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="AnimalSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnimalSelect.Designer.cs">
+      <DependentUpon>AnimalSelect.cs</DependentUpon>
+    </Compile>
     <Compile Include="BLL\AnimalSelect.cs" />
     <Compile Include="BLL\Feed.cs" />
     <Compile Include="BLL\Feedup.cs" />
@@ -101,6 +107,9 @@
     <Compile Include="TasksPop.Designer.cs">
       <DependentUpon>TasksPop.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AnimalSelect.resx">
+      <DependentUpon>AnimalSelect.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FeedBackForwardPop.resx">
       <DependentUpon>FeedBackForwardPop.cs</DependentUpon>
     </EmbeddedResource>
@@ -123,6 +132,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="TasksPop.resx">
+      <DependentUpon>TasksPop.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
