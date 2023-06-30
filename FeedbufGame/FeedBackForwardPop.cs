@@ -12,7 +12,7 @@ namespace FeedbufGame
 {
     public partial class FeedBackForwardPop : Form
     {
-        BLL.Feed feed = new BLL.Feed(0,"",DateTime.Now,0);
+        //BLL.Feed feed = new BLL.Feed(0,"",DateTime.Now,0);
         public FeedBackForwardPop()
         {
             InitializeComponent();
@@ -20,7 +20,7 @@ namespace FeedbufGame
 
         private void feedButton_Click(object sender, EventArgs e)
         {
-            feed.CreateFeed();
+            //feed.CreateFeed();
         }
     }
 }
