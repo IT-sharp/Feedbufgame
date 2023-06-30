@@ -10,7 +10,7 @@ namespace FeedbufGame
     internal class DAL
     {
         string connectionString = "";
-        public List<Feedup> feedupList = new List<Feedup>();
+        public List<FeedupPop> feedupList = new List<FeedupPop>();
         public List<Feed> feedforwardList = new List<Feed>();
         public List<Feed> feedbackList = new List<Feed>();
         public List<Student> studentList = new List<Student>();
