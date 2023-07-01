@@ -1,6 +1,6 @@
 ﻿namespace FeedbufGame
 {
-    partial class FeedupPop
+    partial class Feedup
     {
         /// <summary>
         /// Required designer variable.

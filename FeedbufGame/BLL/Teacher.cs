@@ -9,11 +9,12 @@ namespace FeedbufGame.BLL
 {
     internal class Teacher
     {
-        private string Name { get; set; }
+        public string Name { get; set; }
         private int PhoneNumber { get; set; }
         private string EmailAdress { get; set; }
         private List<Teacher> Teachers { get; set; }
         private Group Group { get; set; }
+
         public Teacher(string name, int phoneNumber, string emailAdress)
         {
             Name = name;

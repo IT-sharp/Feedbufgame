@@ -14,10 +14,12 @@ namespace FeedbufGame.BLL
         private int Points { get; set; }
         public string Animal { get; set; }
         private List<Student> FeedupList { get; set; }
-        private List<Student> Students { get; set; }
-        public List<Student> Read()
+        private List<Student> StudentRoster { get; set; }
+
+        public List<Student> Read(List<Student> studentRoster)
         {
-            return Students;
+            StudentRoster = studentRoster;
+            return StudentRoster;
         }
     }
 }

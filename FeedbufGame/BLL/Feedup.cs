@@ -9,7 +9,7 @@ namespace FeedbufGame.BLL
     internal class Feedup
     {
         private string Subject { get; set; }
-        private string Goal { get; set; }
+        public string Goal { get; set; }
         private DateTime Deadline { get; set; }
         private Student student {get; set; }
         public Feedup(string subject, string goal, DateTime deadline)

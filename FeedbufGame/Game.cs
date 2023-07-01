@@ -37,7 +37,7 @@ namespace FeedbufGame
 
         private void FeedupBtn_Click(object sender, EventArgs e)
         {
-            FeedupPop feedup = new FeedupPop();
+            Feedup feedup = new Feedup();
             feedup.ShowDialog();
         }
 

@@ -8,7 +8,7 @@ namespace FeedbufGame.BLL
 {
     internal class Inventory
     {
-        Shop Shop { get; set; }
+        private Shop Shop { get; set; }
         private List<Inventory> InventoryList{ get; set; }
         
         public void DisplayOwner()
