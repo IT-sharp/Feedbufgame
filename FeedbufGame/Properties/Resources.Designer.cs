@@ -63,39 +63,9 @@ namespace FeedbufGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap AdultDragonHappy_png {
+        internal static System.Drawing.Bitmap Background {
             get {
-                object obj = ResourceManager.GetObject("AdultDragonHappy.png", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap AdultDragonSad_png {
-            get {
-                object obj = ResourceManager.GetObject("AdultDragonSad.png", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap AdultFoxHappy_png {
-            get {
-                object obj = ResourceManager.GetObject("AdultFoxHappy.png", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap AdultFoxSad_png {
-            get {
-                object obj = ResourceManager.GetObject("AdultFoxSad.png", resourceCulture);
+                object obj = ResourceManager.GetObject("Background", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +83,9 @@ namespace FeedbufGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Forest_png {
+        internal static System.Drawing.Bitmap Christmas {
             get {
-                object obj = ResourceManager.GetObject("Forest.png", resourceCulture);
+                object obj = ResourceManager.GetObject("Christmas", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +93,9 @@ namespace FeedbufGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap FrogHappy_png {
+        internal static System.Drawing.Bitmap HappyDragon1 {
             get {
-                object obj = ResourceManager.GetObject("FrogHappy.png", resourceCulture);
+                object obj = ResourceManager.GetObject("HappyDragon1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +103,9 @@ namespace FeedbufGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap FrogSad_png {
+        internal static System.Drawing.Bitmap HappyDragon2 {
             get {
-                object obj = ResourceManager.GetObject("FrogSad.png", resourceCulture);
+                object obj = ResourceManager.GetObject("HappyDragon2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +113,9 @@ namespace FeedbufGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap HappyTadpole {
+        internal static System.Drawing.Bitmap HappyFox1 {
             get {
-                object obj = ResourceManager.GetObject("HappyTadpole", resourceCulture);
+                object obj = ResourceManager.GetObject("HappyFox1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +123,9 @@ namespace FeedbufGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap pumpkin {
+        internal static System.Drawing.Bitmap HappyFox2 {
             get {
-                object obj = ResourceManager.GetObject("pumpkin", resourceCulture);
+                object obj = ResourceManager.GetObject("HappyFox2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +133,9 @@ namespace FeedbufGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap qiBALj8jT {
+        internal static System.Drawing.Bitmap HappyFrog1 {
             get {
-                object obj = ResourceManager.GetObject("qiBALj8jT", resourceCulture);
+                object obj = ResourceManager.GetObject("HappyFrog1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +143,9 @@ namespace FeedbufGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap SadTadPole {
+        internal static System.Drawing.Bitmap HappyFrog2 {
             get {
-                object obj = ResourceManager.GetObject("SadTadPole", resourceCulture);
+                object obj = ResourceManager.GetObject("HappyFrog2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,9 +153,9 @@ namespace FeedbufGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap viking_helmet_illustration_png {
+        internal static System.Drawing.Bitmap Pumpkin {
             get {
-                object obj = ResourceManager.GetObject("viking_helmet_illustration_png", resourceCulture);
+                object obj = ResourceManager.GetObject("Pumpkin", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,9 +163,9 @@ namespace FeedbufGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap YoungDragonHappy_png {
+        internal static System.Drawing.Bitmap SadDragon1 {
             get {
-                object obj = ResourceManager.GetObject("YoungDragonHappy.png", resourceCulture);
+                object obj = ResourceManager.GetObject("SadDragon1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,9 +173,9 @@ namespace FeedbufGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap YoungDragonSad {
+        internal static System.Drawing.Bitmap SadDragon2 {
             get {
-                object obj = ResourceManager.GetObject("YoungDragonSad", resourceCulture);
+                object obj = ResourceManager.GetObject("SadDragon2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -213,9 +183,9 @@ namespace FeedbufGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap YoungFoxHappy_png {
+        internal static System.Drawing.Bitmap SadFox1 {
             get {
-                object obj = ResourceManager.GetObject("YoungFoxHappy.png", resourceCulture);
+                object obj = ResourceManager.GetObject("SadFox1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,9 +193,39 @@ namespace FeedbufGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap YoungFoxSad_png {
+        internal static System.Drawing.Bitmap SadFox2 {
             get {
-                object obj = ResourceManager.GetObject("YoungFoxSad.png", resourceCulture);
+                object obj = ResourceManager.GetObject("SadFox2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SadFrog1 {
+            get {
+                object obj = ResourceManager.GetObject("SadFrog1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SadFrog2 {
+            get {
+                object obj = ResourceManager.GetObject("SadFrog2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap VikingHelmet {
+            get {
+                object obj = ResourceManager.GetObject("VikingHelmet", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -13,7 +13,7 @@ namespace FeedbufGame.BLL
         private string Subject { get; set; }
         public string Goal { get; set; }
         private DateTime Deadline { get; set; }
-        private Student student {get; set; }
+        private Student student { get; set; }
         private DAL dal { get; set; }
 
         public Feedup(int id, string subject, string goal, DateTime deadline)

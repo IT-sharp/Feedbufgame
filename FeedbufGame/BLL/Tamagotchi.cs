@@ -12,10 +12,5 @@ namespace FeedbufGame.BLL
         private int Happinessbar { get; set; }
         private int Evolvebar { get; set; }
         private bool Equipped { get; set; }
-        private void SetAnimalSelect(AnimalSelect animalSelect)
-        {
-            
-        }
-
     }
 }

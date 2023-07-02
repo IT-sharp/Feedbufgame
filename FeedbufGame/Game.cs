@@ -15,13 +15,80 @@ namespace FeedbufGame
     {
         public Game()
         {
-            //Student student = new Student();
+            Student student = new Student(0,"",0,"",0,"");
             InitializeComponent();
-            //if(student.Animal == "None")
-            //{
-            //    AnimalSelectPop animalSelect = new AnimalSelectPop();
-            //    animalSelect.ShowDialog();
-            //}
+            if(student.Animal == "None")
+            {
+                AnimalSelectPop animalSelect = new AnimalSelectPop();
+                animalSelect.ShowDialog();
+            }
+            else if(student.Animal == "Fox1")
+            {
+                if (HappyBar.Value >= 20)
+                {
+                    AnimalPIc.Image = FeedbufGame.Properties.Resources.HappyFox1;
+                }
+                else if (HappyBar.Value < 20)
+                {
+                    AnimalPIc.Image = FeedbufGame.Properties.Resources.SadFox1;
+                }
+            }
+            else if(student.Animal == "Fox2")
+            {
+                if(HappyBar.Value >= 20)
+                {
+                    AnimalPIc.Image = FeedbufGame.Properties.Resources.HappyFox2;
+                }
+                else if(HappyBar.Value < 20)
+                {
+                    AnimalPIc.Image = FeedbufGame.Properties.Resources.SadFox2;
+                }
+            }
+            else if(student.Animal == "Frog1")
+            {
+                if (HappyBar.Value >= 20)
+                {
+                    AnimalPIc.Image = FeedbufGame.Properties.Resources.HappyFrog1;
+                }
+                else if (HappyBar.Value < 20)
+                {
+                    AnimalPIc.Image = FeedbufGame.Properties.Resources.SadFrog1;
+                }
+            }
+            else if (student.Animal == "Frog2")
+            {
+                if (HappyBar.Value >= 20)
+                {
+                    AnimalPIc.Image = FeedbufGame.Properties.Resources.HappyFrog2;
+                }
+                else if (HappyBar.Value < 20)
+                {
+                    AnimalPIc.Image = FeedbufGame.Properties.Resources.SadFrog2;
+                }
+            }
+            else if (student.Animal == "Dragon1")
+            {
+                if (HappyBar.Value >= 20)
+                {
+                    AnimalPIc.Image = FeedbufGame.Properties.Resources.HappyDragon1;
+                }
+                else if (HappyBar.Value < 20)
+                {
+                    AnimalPIc.Image = FeedbufGame.Properties.Resources.SadDragon1;
+                }
+            }
+            else if (student.Animal == "Dragon2")
+            {
+                if (HappyBar.Value >= 20)
+                {
+                    AnimalPIc.Image = FeedbufGame.Properties.Resources.HappyDragon2;
+                }
+                else if (HappyBar.Value < 20)
+                {
+                    AnimalPIc.Image = FeedbufGame.Properties.Resources.SadDragon2;
+                }
+            }
+
         }
 
         private void Game_Load(object sender, EventArgs e)
@@ -37,7 +104,7 @@ namespace FeedbufGame
 
         private void FeedupBtn_Click(object sender, EventArgs e)
         {
-            Feedup feedup = new Feedup();
+            FeedupPop feedup = new FeedupPop();
             feedup.ShowDialog();
         }
 

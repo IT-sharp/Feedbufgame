@@ -11,7 +11,7 @@ namespace FeedbufGame
 {
     internal class DAL
     {
-        string connectionString = "";
+        string connectionString = "Data Source=ASUSDRAGON\\SQLEXPRESS;Initial Catalog=FeedbufGame;Integrated Security=True";
         public List<Feedup> feedupList = new List<Feedup>();
         public List<Feed> feedbackList = new List<Feed>();
         public List<Feed> feedforwardList = new List<Feed>();
@@ -226,6 +226,29 @@ namespace FeedbufGame
                 }
             }
             return productList;
+        }
+        public Feedup CreateProduct(Feedup feedup)
+        {
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    string sql = "INSERT INTO Feedup (Subject, Goal, Deadline) VALUES (@Subject, @Goal, @Deadline)";
+                    connection.Open();
+                    using (SqlCommand command = new SqlCommand(sql, connection))
+                    {
+                        command.Parameters.AddWithValue("@Subject", feedup.Subject);
+                        command.Parameters.AddWithValue("@Goal", feedup.Goal);
+                        command.Parameters.AddWithValue("@Deadline", feedup.Deadline);
+                        command.ExecuteNonQuery();
+                        command.CommandText = "SELECT CAST(@@Identity AS INT);";
+                        int id = Convert.ToInt32(command.ExecuteScalar());
+                        feedup.Id = id;
+                    }
+                }
+            }
+            catch (SqlException ex) { throw ex; }
+            return feedup;
         }
     }
 }

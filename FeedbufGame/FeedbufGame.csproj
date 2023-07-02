@@ -58,7 +58,6 @@
     <Compile Include="AnimalSelectPop.Designer.cs">
       <DependentUpon>AnimalSelectPop.cs</DependentUpon>
     </Compile>
-    <Compile Include="BLL\AnimalSelect.cs" />
     <Compile Include="BLL\Feed.cs" />
     <Compile Include="BLL\Feedup.cs" />
     <Compile Include="BLL\Group.cs" />
@@ -159,58 +158,58 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="images\62a80accb7b242533931885d49e5ab08.png" />
+    <None Include="images\HappyFrog1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="images\8200fd7836c2db37374d9d3785442336.png" />
+    <None Include="images\SadFrog1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="images\8947689-TCPAJCRJ-7.png" />
+    <None Include="images\SadFox2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="images\adult fox happy.png" />
+    <None Include="images\HappyFox2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="images\Cute-Baby-Black-Dragon-PNG-File-Wall-Art-Graphics-63950521-1-580x386.png" />
+    <None Include="images\HappyDragon1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="images\fox baby.png" />
+    <None Include="images\SadFox1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="images\il_fullxfull.png" />
+    <None Include="images\SadDragon1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="images\images.png" />
+    <None Include="images\HappyFox1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="images\latest.png" />
+    <None Include="images\SadDragon2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="images\upside-down-toothless-s4u6g8iodr1w72cv.png" />
+    <None Include="images\HappyDragon2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\elisabeth-aksenova-1.jpg" />
+    <None Include="images\Background.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\laughing.gif" />
+    <None Include="images\HappyFrog2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\2060-Shiny-Poliwag.png" />
+    <None Include="images\SadFrog2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\60-Poliwag.png" />
+    <None Include="images\Pumpkin.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\pumpkin.png" />
+    <None Include="images\Christmas.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\qiBALj8jT.png" />
+    <None Include="images\VikingHelmet.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\viking-helmet-illustration-png.png" />
+    <None Include="images\Button.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\1319110422.png" />
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
