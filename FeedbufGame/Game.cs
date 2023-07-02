@@ -15,13 +15,13 @@ namespace FeedbufGame
     {
         public Game()
         {
-            Student student = new Student();
+            //Student student = new Student();
             InitializeComponent();
-            if(student.Animal == "None")
-            {
-                AnimalSelectPop animalSelect = new AnimalSelectPop();
-                animalSelect.ShowDialog();
-            }
+            //if(student.Animal == "None")
+            //{
+            //    AnimalSelectPop animalSelect = new AnimalSelectPop();
+            //    animalSelect.ShowDialog();
+            //}
         }
 
         private void Game_Load(object sender, EventArgs e)
