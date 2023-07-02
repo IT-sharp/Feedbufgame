@@ -8,14 +8,18 @@ namespace FeedbufGame.BLL
 {
     internal class Feed
     {
+        private Teacher TeacherFetch { get; }
+        private Feedup FeedupFetch { get; }
+        private DAL dal { get; set; }
         private List<Feed> FeedbackList { get; set; }
-        private List<Feed> FeedfowardList { get; set; }
+        private List<Feed> FeedforwardList { get; set; }
         private int Id { get; set; }
-        private Teacher Teacher { get; set; }
+        private string Teacher { get; set; }
         private string Commentary { get; set; }
         private DateTime Date { get; set; }
-        private Feedup Feedup { get; set; }
-        public Feed(int id, Teacher teacher, string commentary, DateTime date, Feedup feedup)
+        private string Feedup { get; set; }
+
+        public Feed(int id, string teacher, string commentary, DateTime date, string feedup)
         {
             Id = id;
             Teacher = teacher;
@@ -23,25 +27,19 @@ namespace FeedbufGame.BLL
             Date = date;
             Feedup = feedup;
         }
-        public List<Feed> ReadFeedback()
+        public List<Feed> ReadFeedback(List<Feed> feedbackList)
         {
-            return FeedbackList;
+            FeedbackList = feedbackList;
+            return dal.ReadFeedback();
         }
-        public List<Feed> ReadFeedforward()
+        public List<Feed> ReadFeedforward(List<Feed> feedforwardList)
         {
-            return FeedfowardList;
+            FeedforwardList = feedforwardList;
+            return dal.ReadFeedforward();
         }
         public void CreateFeed()
         {
 
-        }
-        public string GetTeacher()
-        {
-            return Teacher.Name;
-        }
-        public string GetGoal()
-        {
-            return Feedup.Goal;
         }
     }
 }

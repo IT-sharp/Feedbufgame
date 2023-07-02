@@ -6,29 +6,31 @@ using System.Threading.Tasks;
 
 namespace FeedbufGame.BLL
 {
-    internal class Task
+    internal class GoalTask
     {
-        private List<Task> TaskList { get; set; }
+        private List<GoalTask> TaskList { get; set; }
+        private Feedup FeedupFetch { get; }
         private int Id { get; set; }
-        private Feedup Feedup { get; set; }
+        private string Feedup { get; set; }
         private string TaskDescription { get; set; }
         private bool IsDone { get; set; }
 
-        public Task(int id, Feedup feedup, string taskDescription, bool isDone)
+        public GoalTask(int id, string feedup, string taskDescription, bool isDone)
         {
             Id = id;
-            Feedup = feedup;
             TaskDescription = taskDescription;
+            Feedup = feedup;
             IsDone = isDone;
         }
-        public List<Task> ReadTask()
+        public List<GoalTask> ReadTask()
         {
             return TaskList;
         }
         public string GetGoal()
         {
-            return Feedup.Goal;
+            string goal = FeedupFetch.Goal;
+            Feedup = goal;
+            return Feedup;
         }
-
     }
 }

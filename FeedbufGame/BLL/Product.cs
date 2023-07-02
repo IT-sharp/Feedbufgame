@@ -15,6 +15,7 @@ namespace FeedbufGame.BLL
         private string Description { get; set; }
         private int Price { get; set; }
         private List<Product> ProductList { get; set; }
+        private DAL dal { get; set; }
 
         public Product(int id, string image, string category, string description, int price)
         {
@@ -26,7 +27,7 @@ namespace FeedbufGame.BLL
         }
         public List<Product> Read()
         {
-            return ProductList;
+            return dal.ReadProduct();
         }
     }
 }

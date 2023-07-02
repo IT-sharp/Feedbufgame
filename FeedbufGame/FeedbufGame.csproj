@@ -67,7 +67,7 @@
     <Compile Include="BLL\Shop.cs" />
     <Compile Include="BLL\Student.cs" />
     <Compile Include="BLL\Tamagotchi.cs" />
-    <Compile Include="BLL\Task.cs" />
+    <Compile Include="BLL\GoalTask.cs" />
     <Compile Include="BLL\Teacher.cs" />
     <Compile Include="DAL.cs" />
     <Compile Include="FeedAllPop.cs">
@@ -116,6 +116,9 @@
     </Compile>
     <EmbeddedResource Include="AnimalSelectPop.resx">
       <DependentUpon>AnimalSelectPop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FeedAllPop.resx">
+      <DependentUpon>FeedAllPop.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FeedBackForwardPop.resx">
       <DependentUpon>FeedBackForwardPop.cs</DependentUpon>

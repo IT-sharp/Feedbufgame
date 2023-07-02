@@ -16,5 +16,10 @@ namespace FeedbufGame
         {
             InitializeComponent();
         }
+
+        private void BtnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

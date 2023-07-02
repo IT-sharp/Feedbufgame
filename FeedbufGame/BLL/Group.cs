@@ -8,15 +8,20 @@ namespace FeedbufGame.BLL
 {
     internal class Group
     {
+        private int Id { get; set; }
         private string GroupName { get; set; }
         private Student Student { get; set; }
-        private List<Group> Students { get; set; }
+        private List<Group> StudentGroup { get; set; }
+        private DAL dal { get; set; }
 
-        public List<Group> GroupStudents(List<Group> students)
+        public Group(int id, string groupName)
         {
-            Students = students;
-
-            return Students;
+            Id = id;
+            GroupName = groupName;
+        }
+        public List<Group> Read()
+        {
+            return dal.ReadGroup();
         }
     }
 }
