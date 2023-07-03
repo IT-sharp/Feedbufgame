@@ -17,5 +17,9 @@ namespace FeedbufGame
             InitializeComponent();
         }
 
+        private void feedButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

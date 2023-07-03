@@ -10,10 +10,11 @@ namespace FeedbufGame.BLL
     {
         private List<GoalTask> TaskList { get; set; }
         private Feedup FeedupFetch { get; }
-        private int Id { get; set; }
-        private string Feedup { get; set; }
-        private string TaskDescription { get; set; }
-        private bool IsDone { get; set; }
+        public int Id { get; set; }
+        public string Feedup { get; set; }
+        public string TaskDescription { get; set; }
+        public bool IsDone { get; set; }
+        private DAL dal { get; set; }
 
         public GoalTask(int id, string feedup, string taskDescription, bool isDone)
         {
@@ -25,6 +26,14 @@ namespace FeedbufGame.BLL
         public List<GoalTask> ReadTask()
         {
             return TaskList;
+        }
+        public GoalTask Create(GoalTask task)
+        {
+            return dal.CreateTask(task); 
+        }
+        public void Update(GoalTask task)
+        {
+            dal.UpdateTask(task);
         }
         public string GetGoal()
         {

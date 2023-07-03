@@ -9,10 +9,10 @@ namespace FeedbufGame.BLL
     internal class Feedup
     {
         private List<Feedup> FeedupList { get; set; }
-        private int Id { get; set; }
-        private string Subject { get; set; }
+        public int Id { get; set; }
+        public string Subject { get; set; }
         public string Goal { get; set; }
-        private DateTime Deadline { get; set; }
+        public DateTime Deadline { get; set; }
         private Student student { get; set; }
         private DAL dal { get; set; }
 
@@ -28,9 +28,13 @@ namespace FeedbufGame.BLL
         {
             return dal.ReadFeedup();
         }
-        public void CreateFeedup()
+        public Feedup Create(Feedup feedup)
         {
-
+            return dal.CreateFeedup(feedup);
+        }
+        public void Update(Feedup feedup)
+        {
+            dal.UpdateFeedup(feedup);
         }
     }
 }

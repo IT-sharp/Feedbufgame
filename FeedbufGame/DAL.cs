@@ -24,6 +24,8 @@ namespace FeedbufGame
         {
 
         }
+
+        //Read methods
         public List<Feed> ReadFeedback()
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -227,7 +229,9 @@ namespace FeedbufGame
             }
             return productList;
         }
-        public Feedup CreateProduct(Feedup feedup)
+        
+        //Create methods
+        public Feedup CreateFeedup(Feedup feedup)
         {
             try
             {
@@ -249,6 +253,161 @@ namespace FeedbufGame
             }
             catch (SqlException ex) { throw ex; }
             return feedup;
+        }
+        public Feed CreateFeedback(Feed feedback)
+        {
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    string sql = "INSERT INTO Feedback (Teacher, Commentary, Date, Feedup) VALUES (@Subject, @Goal, @Deadline)";
+                    connection.Open();
+                    using (SqlCommand command = new SqlCommand(sql, connection))
+                    {
+                        command.Parameters.AddWithValue("@Teacher", feedback.Teacher);
+                        command.Parameters.AddWithValue("@Commentary", feedback.Commentary);
+                        command.Parameters.AddWithValue("@Date", feedback.Date);
+                        command.Parameters.AddWithValue("@Feedup", feedback.Feedup);
+                        command.ExecuteNonQuery();
+                        command.CommandText = "SELECT CAST(@@Identity AS INT);";
+                        int id = Convert.ToInt32(command.ExecuteScalar());
+                        feedback.Id = id;
+                    }
+                }
+            }
+            catch (SqlException ex) { throw ex; }
+            return feedback;
+        }
+        public Feed CreateFeedforward(Feed feedforward)
+        {
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    string sql = "INSERT INTO Feedforward (Teacher, Commentary, Date, Feedup) VALUES (@Subject, @Goal, @Deadline)";
+                    connection.Open();
+                    using (SqlCommand command = new SqlCommand(sql, connection))
+                    {
+                        command.Parameters.AddWithValue("@Teacher", feedforward.Teacher);
+                        command.Parameters.AddWithValue("@Commentary", feedforward.Commentary);
+                        command.Parameters.AddWithValue("@Date", feedforward.Date);
+                        command.Parameters.AddWithValue("@Feedup", feedforward.Feedup);
+                        command.ExecuteNonQuery();
+                        command.CommandText = "SELECT CAST(@@Identity AS INT);";
+                        int id = Convert.ToInt32(command.ExecuteScalar());
+                        feedforward.Id = id;
+                    }
+                }
+            }
+            catch (SqlException ex) { throw ex; }
+            return feedforward;
+        }
+        public GoalTask CreateTask(GoalTask task)
+        {
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    string sql = "INSERT INTO Task (Feedup, TaskDescription, IsDone) VALUES (@Feedup, @TaskDescription, @IsDone)";
+                    connection.Open();
+                    using (SqlCommand command = new SqlCommand(sql, connection))
+                    {
+                        command.Parameters.AddWithValue("@Feedup", task.Feedup);
+                        command.Parameters.AddWithValue("@TaskDescription", task.TaskDescription);
+                        command.Parameters.AddWithValue("@IsDone", task.IsDone);
+                        command.ExecuteNonQuery();
+                        command.CommandText = "SELECT CAST(@@Identity AS INT);";
+                        int id = Convert.ToInt32(command.ExecuteScalar());
+                        task.Id = id;
+                    }
+                }
+            }
+            catch (SqlException ex) { throw ex; }
+            return task;
+        }
+
+        //Update methods
+        public void UpdateFeedup(Feedup feedup)
+        {
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    string sql = "UPDATE Feedup SET Subject = @Subject, Goal = @Goal, Deadline = @Deadline WHERE Id = @Id";
+                    connection.Open();
+                    using (SqlCommand command = new SqlCommand(sql, connection))
+                    {
+                        command.Parameters.AddWithValue("@Id", feedup.Id);
+                        command.Parameters.AddWithValue("@Subject", feedup.Subject);
+                        command.Parameters.AddWithValue("@Goal", feedup.Goal);
+                        command.Parameters.AddWithValue("@Deadline", feedup.Deadline);
+                        command.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (SqlException ex) { throw ex; }
+        }
+        public void UpdateFeedback(Feed feedback)
+        {
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    string sql = "UPDATE Feedback SET Teacher = @Teacher, Commentary = @Commentary, Date = @Date, Feedup = @Feedup WHERE Id = @Id";
+                    connection.Open();
+                    using (SqlCommand command = new SqlCommand(sql, connection))
+                    {
+                        command.Parameters.AddWithValue("@Id", feedback.Id);
+                        command.Parameters.AddWithValue("@Teacher", feedback.Teacher);
+                        command.Parameters.AddWithValue("@Commentary", feedback.Commentary);
+                        command.Parameters.AddWithValue("@Date", feedback.Date);
+                        command.Parameters.AddWithValue("@Feedup", feedback.Feedup);
+                        command.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (SqlException ex) { throw ex; }
+        }
+        public void UpdateFeedforward(Feed feedforward)
+        {
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    string sql = "UPDATE Feedforward SET Teacher = @Teacher, Commentary = @Commentary, Date = @Date, Feedup = @Feedup WHERE Id = @Id";
+                    connection.Open();
+                    using (SqlCommand command = new SqlCommand(sql, connection))
+                    {
+                        command.Parameters.AddWithValue("@Id", feedforward.Id);
+                        command.Parameters.AddWithValue("@Teacher", feedforward.Teacher);
+                        command.Parameters.AddWithValue("@Commentary", feedforward.Commentary);
+                        command.Parameters.AddWithValue("@Date", feedforward.Date);
+                        command.Parameters.AddWithValue("@Feedup", feedforward.Feedup);
+                        command.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (SqlException ex) { throw ex; }
+        }
+        public void UpdateTask(GoalTask task)
+        {
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    string sql = "UPDATE Task SET Feedup = @Feedup, TaskDescription = @TaskDescription, IsDone = @IsDone WHERE Id = @Id";
+                    connection.Open();
+                    using (SqlCommand command = new SqlCommand(sql, connection))
+                    {
+                        command.Parameters.AddWithValue("@Id", task.Id);
+                        command.Parameters.AddWithValue("@Feedup", task.Feedup);
+                        command.Parameters.AddWithValue("@TaskDescription", task.TaskDescription);
+                        command.Parameters.AddWithValue("@IsDone", task.IsDone);
+                        command.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (SqlException ex) { throw ex; }
         }
     }
 }
