@@ -13,29 +13,35 @@ namespace FeedbufGame
     public partial class FeedBackForwardPop : Form
     {
         BLL.Feed feed = new BLL.Feed(0,"","",DateTime.Now,"");
-        BLL.Feedup feedup = new BLL.Feedup(0, "Math", "Getgud", DateTime.Now);
+        BLL.Feedup feedup = new BLL.Feedup(0, "", "", DateTime.Now);
         public FeedBackForwardPop()
         {
             InitializeComponent();
             foreach(BLL.Feedup feedup in feedup.Read())
             {
-
+                feedup.Update(feedup);
+                CbGoal.Items.Add(feedup.Goal);
             }
+            
         }
 
         private void feedButton_Click(object sender, EventArgs e)
         {
-            string inputGoal = CbGoal.Text;
-            string inputTeach = CbTeacher.Text;
-            string inputCom = TbComFeed.Text;
+            feed = new BLL.Feed(0, CbGoal.SelectedItem.ToString(), CbTeacher.Text, DateTime.Now, TbComFeed.Text);
 
-            if(CbBackForward.ValueMember == "Feedback")
+            if (CbBackForward.SelectedItem.ToString() == "Feedback")
             {
-                feed.CreateFeedback();
-            }    
-            else if(CbBackForward.ValueMember == "Feedforward")
+                feed.CreateFeedback(feed);
+                MessageBox.Show("Succes", "Feedback toegevoegd!",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
+            }
+            else if (CbBackForward.SelectedItem.ToString() == "Feedforward")
             {
-                feed.CreateFeedforward();
+                feed.CreateFeedforward(feed);
+                MessageBox.Show("Succes", "Feedforward toegevoegd!",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
             }
         }
     }

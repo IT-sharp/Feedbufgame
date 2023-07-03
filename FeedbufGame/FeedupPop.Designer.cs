@@ -31,9 +31,9 @@
             this.feedButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.TbGoal = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.CbSubject = new System.Windows.Forms.ComboBox();
             this.DtpFeedup = new System.Windows.Forms.DateTimePicker();
             this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -70,13 +70,13 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Wat is je leerdoel?";
             // 
-            // textBox1
+            // TbGoal
             // 
-            this.textBox1.Location = new System.Drawing.Point(15, 48);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(383, 20);
-            this.textBox1.TabIndex = 5;
+            this.TbGoal.Location = new System.Drawing.Point(15, 48);
+            this.TbGoal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TbGoal.Name = "TbGoal";
+            this.TbGoal.Size = new System.Drawing.Size(383, 20);
+            this.TbGoal.TabIndex = 5;
             // 
             // label3
             // 
@@ -88,10 +88,10 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Welk vak hoort bij dit leerdoel?";
             // 
-            // comboBox1
+            // CbSubject
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.CbSubject.FormattingEnabled = true;
+            this.CbSubject.Items.AddRange(new object[] {
             "Introduction to ICT",
             "Professional Skills",
             "Teams Skills",
@@ -105,11 +105,11 @@
             "Business Processes and Services",
             "Ethical Hacking",
             "Mobile Application Development"});
-            this.comboBox1.Location = new System.Drawing.Point(15, 88);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(383, 21);
-            this.comboBox1.TabIndex = 7;
+            this.CbSubject.Location = new System.Drawing.Point(15, 88);
+            this.CbSubject.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CbSubject.Name = "CbSubject";
+            this.CbSubject.Size = new System.Drawing.Size(383, 21);
+            this.CbSubject.TabIndex = 7;
             // 
             // DtpFeedup
             // 
@@ -137,9 +137,9 @@
             this.ClientSize = new System.Drawing.Size(567, 402);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.DtpFeedup);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.CbSubject);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.TbGoal);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.feedButton);
@@ -156,9 +156,9 @@
         private System.Windows.Forms.Button feedButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox TbGoal;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox CbSubject;
         private System.Windows.Forms.DateTimePicker DtpFeedup;
         private System.Windows.Forms.Label label4;
     }

@@ -36,10 +36,13 @@
             this.Feedforward = new System.Windows.Forms.TabPage();
             this.LbFeedforward = new System.Windows.Forms.ListBox();
             this.BtnClose = new System.Windows.Forms.Button();
+            this.Tasks = new System.Windows.Forms.TabPage();
+            this.LbTasks = new System.Windows.Forms.ListBox();
             this.tabControl1.SuspendLayout();
             this.Feedup.SuspendLayout();
             this.Feedback.SuspendLayout();
             this.Feedforward.SuspendLayout();
+            this.Tasks.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -47,6 +50,7 @@
             this.tabControl1.Controls.Add(this.Feedup);
             this.tabControl1.Controls.Add(this.Feedback);
             this.tabControl1.Controls.Add(this.Feedforward);
+            this.tabControl1.Controls.Add(this.Tasks);
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -120,6 +124,25 @@
             this.BtnClose.UseVisualStyleBackColor = true;
             this.BtnClose.Click += new System.EventHandler(this.BtnClose_Click);
             // 
+            // Tasks
+            // 
+            this.Tasks.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Tasks.Controls.Add(this.LbTasks);
+            this.Tasks.Location = new System.Drawing.Point(4, 22);
+            this.Tasks.Name = "Tasks";
+            this.Tasks.Padding = new System.Windows.Forms.Padding(3);
+            this.Tasks.Size = new System.Drawing.Size(1256, 513);
+            this.Tasks.TabIndex = 3;
+            this.Tasks.Text = "Taken";
+            // 
+            // LbTasks
+            // 
+            this.LbTasks.FormattingEnabled = true;
+            this.LbTasks.Location = new System.Drawing.Point(18, 14);
+            this.LbTasks.Name = "LbTasks";
+            this.LbTasks.Size = new System.Drawing.Size(1221, 485);
+            this.LbTasks.TabIndex = 1;
+            // 
             // FeedAllPop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -134,6 +157,7 @@
             this.Feedup.ResumeLayout(false);
             this.Feedback.ResumeLayout(false);
             this.Feedforward.ResumeLayout(false);
+            this.Tasks.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -148,5 +172,7 @@
         private System.Windows.Forms.TabPage Feedforward;
         private System.Windows.Forms.ListBox LbFeedforward;
         private System.Windows.Forms.Button BtnClose;
+        private System.Windows.Forms.TabPage Tasks;
+        private System.Windows.Forms.ListBox LbTasks;
     }
 }

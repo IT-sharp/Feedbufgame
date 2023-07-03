@@ -9,7 +9,6 @@ namespace FeedbufGame.BLL
     internal class GoalTask
     {
         private List<GoalTask> TaskList { get; set; }
-        private Feedup FeedupFetch { get; }
         public int Id { get; set; }
         public string Feedup { get; set; }
         public string TaskDescription { get; set; }
@@ -34,12 +33,6 @@ namespace FeedbufGame.BLL
         public void Update(GoalTask task)
         {
             dal.UpdateTask(task);
-        }
-        public string GetGoal()
-        {
-            string goal = FeedupFetch.Goal;
-            Feedup = goal;
-            return Feedup;
         }
     }
 }

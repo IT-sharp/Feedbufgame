@@ -26,15 +26,14 @@ namespace FeedbufGame.BLL
             Commentary = commentary;
             Date = date;
             Feedup = feedup;
+            dal = new DAL();
         }
-        public List<Feed> ReadFeedback(List<Feed> feedbackList)
+        public List<Feed> ReadFeedback()
         {
-            FeedbackList = feedbackList;
             return dal.ReadFeedback();
         }
-        public List<Feed> ReadFeedforward(List<Feed> feedforwardList)
+        public List<Feed> ReadFeedforward()
         {
-            FeedforwardList = feedforwardList;
             return dal.ReadFeedforward();
         }
         public Feed CreateFeedback(Feed feedback)
